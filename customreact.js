@@ -6,7 +6,7 @@ function customrender(reactElement,container){
     dom.setAttribute('target',reactElement.props.target)
     this method is not optimized*/
     for(const prop in reactElement.props){
-        if(prop==='children') continue
+        if(prop ==='children') continue
         dom.setAttribute(prop,reactElement.props[prop])
     }
     container.appendChild(dom)
