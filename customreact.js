@@ -19,7 +19,7 @@ const  reactElement = {
         target: '_blank'
     },
     children: 'Click me to visit google'
-}
+}/* same as <a href="https://google.com" target="_blank">Visit google</a>*/
 const container = document.getElementById('root');
 
 customrender(reactElement,container)
